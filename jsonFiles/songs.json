@@ -1,0 +1,34 @@
+{
+  "songs": [
+  {
+    "title":"Dreamboat Annie",
+    "artist": "Heart",
+    "album":"Dreamboat Annie",
+    "year":1975
+  },
+  {
+    "title":"If I Had a Boat",
+    "artist": "Lyle Lovett",
+    "album":"Pontiac",
+    "year":1988
+  },
+  { 
+  "title":"Capricorn 'n' Hominy",
+    "artist": "Laura Love",
+    "album":"Octoroon",
+    "year":1997
+  },
+{ 
+  "title":"Killer Queen",
+    "artist": "Queen",
+    "album":"Sheer Heart Attack",
+    "year":1974
+  },
+{ 
+  "title":"'Till We Get the Healing Done",
+    "artist": "Van Morrison",
+    "album":"Too Long In Exile",
+    "year":1993
+  }
+  ]
+}
