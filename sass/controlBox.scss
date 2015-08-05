@@ -1,0 +1,45 @@
+$background-color: #478E95s;
+$border-color: #4A6264;
+
+
+.controlBox {
+  background-color: $background-color;
+  border: 1px solid $border-color;
+  margin: 15px 15px 0 0 ;
+
+
+}
+
+.form {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+label {
+  margin: 2px 0 2px 0;
+  padding: 5px;
+  font-style: 'italic';
+  font-size: 1.25rem
+}
+
+
+.augment-btn {
+  font-size: 1.5em;
+  padding: 3px;
+  border: 1px solid $border-color;
+  background-color: white;
+  border-radius: 6px;
+  margin-top: 10px;
+  width: 150px;
+  font-style: italic; }
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }

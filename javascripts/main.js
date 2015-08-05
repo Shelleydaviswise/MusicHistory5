@@ -22,7 +22,7 @@ requirejs(
     });
     
 
-    $(document).on('click', '#getMoreSongs', function(){
+    $(document).on('click', '#get-more-songs', function(){
       get_more.querySongs(function(data) {
         console.log(data);
 

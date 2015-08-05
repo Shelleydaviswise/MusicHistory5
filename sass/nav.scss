@@ -1,0 +1,27 @@
+
+$bg-color: #5F860C;
+$color: #4A6264;
+
+.aug-navbar {
+
+    background-color: $bg-color;
+    
+
+   li {
+      color: $color;
+      font-size: 2em; 
+      padding: 1em;
+    }
+
+    a {
+      text-decoration: none;
+      color: $color;
+    }
+
+    a:hover {
+      font-weight: 700;
+      text-shadow: 1px 1px 1px white;
+      background-color: #D2EA9F;
+     }
+} 
+
