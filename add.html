@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+
+     <link rel='stylesheet' type = 'text/css' href='bower_components/bootstrap/dist/css/bootstrap.min.css'>
+     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+     <link rel = 'stylesheet' type  = 'text/css' href = 'styles/main.css'>
+
+  <title>Music History 6</title>
+</head>
+  <body id = 'addMusic' class= 'container'>
+    <header>
+  <!-- Navigation Element -->
+      <nav class='navbar navbar-default augment-nav'>
+         <!-- Brand and toggle get grouped for better mobile display -->
+          <div class='navbar-header'> 
+            <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1' aria-expanded='false'>
+              <span class='sr-only'>Toggle navigation</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+            <a class='navbar-brand' href='#'>MyTunes</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+            <ul class='nav navbar-nav'>
+              <li><a href='index.html'>View Music <span class='sr-only'>(current)</span></a></li>
+              <li><a href='#'>Add Music</a></li>
+              <li><a href='#'>Profile</a></li>
+            </ul> 
+            </div><!-- /.navbar-collapse -->
+      </nav>
+    </header>
+
+
+  <!-- Main Columns Container -->
+
+
+    <div class='row'>
+      <div class='col-sm-5' id = 'control-box'>
+        
+        <form class= 'input-form' action = "form.html" method = "POST"> 
+          <fieldset> 
+            <legend> Enter Songs into the Database</legend>
+              <div class='input'>
+                <label for ='title' > Song Title </label>
+                <input id = 'song-title-input' class = "inputField" type="text" name="title" placeholder = 'Song Title' autofocus><br>
+                <label for ='artist' > Artist Name </label>
+                <input id = 'song-artist-input' class = "inputField" type="text" name="artist" placeholder = 'Artist or Group Name'><br>
+                <label for ='album' > Album </label>
+                <input id = 'song-album-input' class = "inputField" type="text" name="album" placeholder = 'Album Name'><br>
+                <label for ='year' > Year </label>
+                <input id = 'song-year-input' class = "inputField" type="text" name="year" placeholder = 'Year Published'><br>
+                
+                <!-- <label for ='genre' > Genre </label> -->
+                  <!-- Put a dropdown button here to select genre -->
+                 <!-- <input id = 'song-genre-input' class = "inputField" type="text" name="genre" >
+                
+ -->  
+                <button type='button' id ='review-song' class='btn btn-default'>Review Song</button>
+
+
+        <div class='col-sm-7' id='song-column'> 
+        <div id='songToInput'></div>
+        <button type='button' id ='post-song' class='btn btn-default'>Add to Song Database</button>
+     
+      </div>
+    </div>
+
+
+  <script data-main='javascripts/main' src ='bower_components/requirejs/require.js'></script>
+
+  </body
+</html>

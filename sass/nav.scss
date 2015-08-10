@@ -1,27 +1,24 @@
 
-$bg-color: #5F860C;
-$color: #4A6264;
+$nav-bg-color: #0D4D4D;
+$nav-on-hover: #669999;
 
-.aug-navbar {
+.augment-nav {
+    background-color: $nav-bg-color;
 
-    background-color: $bg-color;
-    
-
-   li {
-      color: $color;
+    li {
       font-size: 2em; 
       padding: 1em;
     }
 
     a {
       text-decoration: none;
-      color: $color;
+      color: black;
     }
 
     a:hover {
       font-weight: 700;
-      text-shadow: 1px 1px 1px white;
-      background-color: #D2EA9F;
+      text-shadow: 1px 1px 1px $nav-on-hover;
+      background-color: white;
      }
 } 
 

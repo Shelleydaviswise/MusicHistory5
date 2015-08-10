@@ -2,13 +2,13 @@
 
 
 
-   define(function() {
+   define(["jquery"], function() {
   return {
     querySongs: function(callback) {
       $.ajax({
-        url: "./jsonFiles/songs.json"
+        url: "https://torrid-torch-3031.firebaseio.com/.json"
       }).done(function(data) {
-        callback.call(this, data.songs);
+        callback.call(this, data);
       });
     }
   };

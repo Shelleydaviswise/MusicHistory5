@@ -1,45 +1,30 @@
-$background-color: #478E95s;
-$border-color: #4A6264;
+$background-color: #226666;
+$border-color: #18676E;
 
-
-.controlBox {
+#control-box {
   background-color: $background-color;
   border: 1px solid $border-color;
-  margin: 15px 15px 0 0 ;
-
-
+  padding: 10px;
+  margin: 15px 0 0 0;
 }
 
-.form {
-  margin: 5px;
+.range {
+  width: 20%;
+  margin: 15px 0 0 15px;
+}
+
+.augment-dropdown {
+  font-size: 1.25em;
+  width: 40%;
+  font-style: italic;
   padding: 5px;
-  font-size: 1em;
+  margin: 10px 0 10px 5px;
 }
 
-label {
-  margin: 2px 0 2px 0;
+.augment-button {
+  font-size: 1.25em;
+  width: 30%;
+  font-style: italic;
   padding: 5px;
-  font-style: 'italic';
-  font-size: 1.25rem
+  align-content: justify;
 }
-
-
-.augment-btn {
-  font-size: 1.5em;
-  padding: 3px;
-  border: 1px solid $border-color;
-  background-color: white;
-  border-radius: 6px;
-  margin-top: 10px;
-  width: 150px;
-  font-style: italic; }
-
-
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
-}
-
-.box { @include border-radius(10px); }

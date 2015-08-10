@@ -1,75 +1,37 @@
+.row {
+  border: 1px solid black; }
+
 html body {
   font: 100% Lato, serif;
-  background-color: #095057;
+  background-color: #407F7F;
   color: black;
   font-size: 1em; }
 
-.aug-navbar {
-  background-color: #5F860C; }
-  .aug-navbar li {
-    color: #4A6264;
-    font-size: 2em;
-    padding: 1em; }
-  .aug-navbar a {
-    text-decoration: none;
-    color: #4A6264; }
-  .aug-navbar a:hover {
-    font-weight: 700;
-    text-shadow: 1px 1px 1px white;
-    background-color: #D2EA9F; }
+#song-column {
+  background-color: white; }
 
-.controlBox {
-  background-color: #478E95 s;
-  border: 1px solid #4A6264;
-  margin: 15px 15px 0 0; }
-
-.form {
-  margin: 5px;
-  padding: 5px;
-  font-size: 1em; }
-
-label {
-  margin: 2px 0 2px 0;
-  padding: 5px;
-  font-style: 'italic';
-  font-size: 1.25rem; }
-
-.augment-btn {
-  font-size: 1.5em;
-  padding: 3px;
-  border: 1px solid #4A6264;
-  background-color: white;
-  border-radius: 6px;
-  margin-top: 10px;
-  width: 150px;
-  font-style: italic; }
-
-.box {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px; }
-
-#songColumn {
+#song-list {
   padding: 10px;
-  background-color: #FEFAC0;
-  border: 1px solid black;
-  color: #785616;
+  background-color: white;
+  border: 1px solid #003333;
   margin: 15px 0 0 0; }
 
-h2 {
-  font-style: italic;
-  font-weight: 700;
-  height: .75em; }
+#song-list div {
+  padding: 3px 0 0 20px; }
 
-#songColumn div {
-  padding: 3px 0 3px 10px; }
+p {
+  font-size: 1.5em; }
+
+h3 {
+  font-weight: 700;
+  font-style: italic; }
 
 #deleteButton {
+  width: 100px;
   font-size: .75em;
   font-style: italic;
   border-radius: 6px;
-  background-color: fuchsia; }
+  background-color: #669999; }
 
 .more-songs {
   width: 150px;
@@ -77,9 +39,53 @@ h2 {
   font-style: italic;
   font-size: 1.25em;
   border-radius: 6px;
-  background-color: white; }
+  background-color: #FFEDA3; }
 
 .more-songs:hover {
-  text-shadow: 1px 1px 1px gray; }
+  text-shadow: 1px 1px 1px white; }
+
+.augment-nav {
+  background-color: #0D4D4D; }
+  .augment-nav li {
+    font-size: 2em;
+    padding: 1em; }
+  .augment-nav a {
+    text-decoration: none;
+    color: black; }
+  .augment-nav a:hover {
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #669999;
+    background-color: white; }
+
+#control-box {
+  background-color: #226666;
+  border: 1px solid #18676E;
+  padding: 10px;
+  margin: 15px 0 0 0; }
+
+.range {
+  width: 20%;
+  margin: 15px 0 0 15px; }
+
+.augment-dropdown {
+  font-size: 1.25em;
+  width: 40%;
+  font-style: italic;
+  padding: 5px;
+  margin: 10px 0 10px 5px; }
+
+.augment-button {
+  font-size: 1.25em;
+  width: 30%;
+  font-style: italic;
+  padding: 5px;
+  align-content: justify; }
+
+.inputField {
+  font-size: 1em;
+  height: 1.5em;
+  margin: 5px;
+  align: right;
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
